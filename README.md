@@ -1,54 +1,68 @@
-﻿# W4: [Arduino](https://github.com/OS-Q/W4) 
+﻿# W4: [特殊平台](https://github.com/OS-Q/W4) 
 
-arduino控制节点，基于现成软硬件快速开发
+特殊信号采集平台，用于对接各种特殊的设备
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-### STM8/32平台：[W3](https://github.com/OS-Q/W3)
+#### 归属信号采集：[M1](https://github.com/OS-Q/M1)
 
-### CH55X平台：[W2](https://github.com/OS-Q/W2)
-
-### N76E003平台：[W1](https://github.com/OS-Q/W1)
-
-#### 低成本控制：[M1](https://github.com/OS-Q/M1)
-
-#### 系统主页：[OS-Q](https://github.com/OS-Q/OS-Q)
-
----
+#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ## [描述](https://github.com/OS-Q/W4/wiki) 
 
-非常普及的开源软硬件平台arduino,拥有极为丰富的开发资源
+W1电气信号采集平台用于板载设备直接采集电压电流等信号量，不需要传感器
 
-#### common
-
-
+### [共用资源](https://github.com/OS-Q/W4/wiki) 
 
 ---
 
-## 硬件组成
+- 边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
 
-基于arduino不同开源硬件平台搭建的板级设备
+- naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
 
-#### [D22:板级设备](https://github.com/OS-Q/D22)
+## [包含设备](https://github.com/OS-Q/W4/wiki/index) 
 
-arduino mini：主控芯片ATMEGA328P
+#### D22：[NULL](https://github.com/OS-Q/D22)
 
-#### [D23:板级设备](https://github.com/OS-Q/D23)
 
-arduino nano：主控芯片ATMEGA328P-AU
+#### D23：[NULL](https://github.com/OS-Q/D23)
 
-#### [D24:板级设备](https://github.com/OS-Q/D24)
 
-arduino uno：主控芯片ATmega328P
+#### D24：[NULL](https://github.com/OS-Q/D24)
 
-#### [D25:板级设备](https://github.com/OS-Q/D25)
 
-arduino mega2560：主控芯片ATmega2560
+#### D25：[NULL](https://github.com/OS-Q/D25)
+
+
+#### D26：[NULL](https://github.com/OS-Q/D26)
+
+
+#### D27：[NULL](https://github.com/OS-Q/D27)
+
+
+#### D28：[NULL](https://github.com/OS-Q/D28)
+
+
+## [同级平台](https://github.com/OS-Q/M1/wiki)
+
+#### W1：[电气信号](https://github.com/OS-Q/W1)
+
+用于电气信号的采集转换
+
+#### W2：[常态转化](https://github.com/OS-Q/W2)
+
+用于处理转化常态信号量
+
+#### W3：[阈值监控](https://github.com/OS-Q/W3)
+
+用于监控阈值状态发生
+
+#### -> W4：[特殊平台](https://github.com/OS-Q/W4)
+
+用于处理特殊需求情况
 
 ---
 
-###  锻造最美之器
-
-###  www.OS-Q.com   |   qitas@qitas.cn
-
+####   © qitas@qitas.cn
+###   [OS-Q redefined Operation System](http://www.OS-Q.com)
+####  @ 2019-1-1
