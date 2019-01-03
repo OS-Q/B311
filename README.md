@@ -1,6 +1,4 @@
-﻿# W4: [特殊平台](https://github.com/OS-Q/W4) 
-
-特殊信号采集平台，用于对接各种特殊的设备
+﻿# W4: [特殊信号](https://github.com/OS-Q/W4) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -10,9 +8,9 @@
 
 ## [描述](https://github.com/OS-Q/W4/wiki) 
 
-W1电气信号采集平台用于板载设备直接采集电压电流等信号量，不需要传感器
+特殊信号采集平台用于采集和处理各种特殊的信号数据，包括驱动各种未归类的传感器
 
-### [共用资源](https://github.com/OS-Q/W4/wiki) 
+### [共用资源](OS-Q/) 
 
 ---
 
@@ -20,9 +18,9 @@ W1电气信号采集平台用于板载设备直接采集电压电流等信号量
 
 - naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
 
-## [包含设备](https://github.com/OS-Q/W4/wiki/index) 
+## [包含设备](https://github.com/OS-Q/W4/wiki) 
 
-#### D22：[NULL](https://github.com/OS-Q/D22)
+#### D22：[功率监控](https://github.com/OS-Q/D22)
 
 
 #### D23：[NULL](https://github.com/OS-Q/D23)
@@ -45,21 +43,21 @@ W1电气信号采集平台用于板载设备直接采集电压电流等信号量
 
 ## [同级平台](https://github.com/OS-Q/M1/wiki)
 
-#### W1：[电气信号](https://github.com/OS-Q/W1)
+#### W1：[模拟信号](https://github.com/OS-Q/W1)
 
-用于电气信号的采集转换
+用于模拟信号的采集转换
 
-#### W2：[常态转化](https://github.com/OS-Q/W2)
+#### W2：[环境监控](https://github.com/OS-Q/W2)
 
-用于处理转化常态信号量
+用于监控设备的外部环境
 
-#### W3：[阈值监控](https://github.com/OS-Q/W3)
+#### W3：[状态监控](https://github.com/OS-Q/W3)
 
-用于监控阈值状态发生
+用于监控设备自身的状态
 
-#### -> W4：[特殊平台](https://github.com/OS-Q/W4)
+#### -> W4：[特殊信号](https://github.com/OS-Q/W4)
 
-用于处理特殊需求情况
+用于处理特殊信号的采集
 
 ---
 
