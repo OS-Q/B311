@@ -1,16 +1,15 @@
-﻿# [扩展平台](https://github.com/OS-Q/W4)
+﻿# [有线网路](https://github.com/OS-Q/W12)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-#### 归属数据转换：[M1](https://github.com/OS-Q/M1)
-
+#### 归属网络控制：[M3](https://github.com/OS-Q/M3)
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
-Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
+[EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> N[60] -> S[60]
 
 ### [平台描述](https://github.com/OS-Q/W4/wiki)
 
-扩展平台
+[有线网路](https://github.com/OS-Q/W12)用于接入以太网
 
 ### [平台资源](https://github.com/OS-Q/W4)
 
@@ -19,20 +18,12 @@ Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
 
 ### [平台相关](https://github.com/OS-Q/W4)
 
-* M1：[数据转换](https://github.com/OS-Q/M1)
-	* W1：[嵌入模块](https://github.com/OS-Q/W1)
-	* W2：[标准单元](https://github.com/OS-Q/W2)
-	* W3：[集成设备](https://github.com/OS-Q/W3)
-	* W4：[扩展平台](https://github.com/OS-Q/W4)
-        * D22：[NULL](https://github.com/OS-Q/D22)
-        * D23：[NULL](https://github.com/OS-Q/D23)
-        * D24：[NULL](https://github.com/OS-Q/D24)
-        * D25：[NULL](https://github.com/OS-Q/D25)
-        * D26：[NULL](https://github.com/OS-Q/D26)
-        * D27：[NULL](https://github.com/OS-Q/D27)
-        * D28：[NULL](https://github.com/OS-Q/D28)
+* M3：[网络控制](https://github.com/OS-Q/M3)
+	* W10：[现场控制](https://github.com/OS-Q/W10)
+	* W11：[标准单元](https://github.com/OS-Q/W11)
+	* W12：[有线网路](https://github.com/OS-Q/W12)
+	* W13：[云端接入](https://github.com/OS-Q/W13)
 
 
-
-### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/W4)
-####  2019-6-24 
+### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/W12)
+####  2019-10-21
