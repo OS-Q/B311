@@ -1,29 +1,14 @@
-﻿# [有线网路](https://github.com/OS-Q/W12)
+﻿# [网络中继终端](https://github.com/OS-Q/W26)
 
-[![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
+[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-#### 归属网络控制：[M3](https://github.com/OS-Q/M3)
-#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+### [workspace描述](https://github.com/OS-Q/W26/wiki)
 
-[EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> N[60] -> S[60]
+[移动采集终端](https://github.com/OS-Q/W26) 用于不同信号和网络连接汇集
 
-### [平台描述](https://github.com/OS-Q/W4/wiki)
+### [收录资源](https://github.com/OS-Q/)
 
-[有线网路](https://github.com/OS-Q/W12)用于接入以太网
-
-### [平台资源](https://github.com/OS-Q/W4)
-
-* [资源](src/)
 * [文档](docs/)
+* [工程](project/)
 
-### [平台相关](https://github.com/OS-Q/W4)
-
-* M3：[网络控制](https://github.com/OS-Q/M3)
-	* W10：[现场控制](https://github.com/OS-Q/W10)
-	* W11：[标准单元](https://github.com/OS-Q/W11)
-	* W12：[有线网路](https://github.com/OS-Q/W12)
-	* W13：[云端接入](https://github.com/OS-Q/W13)
-
-
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/W12)
-####  2019-10-21
+### [OS-Q = Open Solutions | Open Source | Operating System ](http://www.OS-Q.com/W26)
