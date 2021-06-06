@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_RaspberryPi_RP2040:RP2040 U3
+L EnvOpenPico-rescue:RP2040-MCU_RaspberryPi_RP2040 U3
 U 1 1 5ED8F5D6
 P 7800 5700
 F 0 "U3" H 6700 7650 50  0000 C CNN
@@ -116,7 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 7400 9650 7400
 $Comp
-L power:GND #PWR016
+L EnvOpenPico-rescue:GND-power #PWR016
 U 1 1 5EDC82DF
 P 7800 7800
 F 0 "#PWR016" H 7800 7550 50  0001 C CNN
@@ -127,7 +127,7 @@ F 3 "" H 7800 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L EnvOpenPico-rescue:GND-power #PWR015
 U 1 1 5EDC8AC7
 P 7300 7800
 F 0 "#PWR015" H 7300 7550 50  0001 C CNN
@@ -214,7 +214,7 @@ XIN
 Text Label 6000 6000 0    50   ~ 0
 XOUT
 $Comp
-L Device:R R4
+L EnvOpenPico-rescue:R-Device R4
 U 1 1 5EDE1624
 P 9650 4100
 F 0 "R4" V 9443 4100 50  0000 C CNN
@@ -369,7 +369,7 @@ Connection ~ 7100 3200
 Wire Wire Line
 	7100 3200 7000 3200
 $Comp
-L power:+3V3 #PWR017
+L EnvOpenPico-rescue:+3V3-power #PWR017
 U 1 1 5EED9BA4
 P 8450 2350
 F 0 "#PWR017" H 8450 2200 50  0001 C CNN
@@ -381,7 +381,7 @@ F 3 "" H 8450 2350 50  0001 C CNN
 $EndComp
 Connection ~ 8450 3200
 $Comp
-L power:+1V1 #PWR014
+L EnvOpenPico-rescue:+1V1-power #PWR014
 U 1 1 5EEE74CE
 P 7000 2350
 F 0 "#PWR014" H 7000 2200 50  0001 C CNN
@@ -395,7 +395,7 @@ Wire Wire Line
 	7000 2350 7000 2400
 Connection ~ 7000 3200
 $Comp
-L Device:C C6
+L EnvOpenPico-rescue:C-Device C6
 U 1 1 5EF00505
 P 6200 2600
 F 0 "C6" H 6315 2646 50  0000 L CNN
@@ -406,7 +406,7 @@ F 3 "~" H 6200 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L EnvOpenPico-rescue:C-Device C7
 U 1 1 5EF0050F
 P 6650 2600
 F 0 "C7" H 6765 2646 50  0000 L CNN
@@ -417,7 +417,7 @@ F 3 "~" H 6650 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L EnvOpenPico-rescue:C-Device C10
 U 1 1 5EF08170
 P 8800 3200
 F 0 "C10" H 8915 3246 50  0000 L CNN
@@ -435,7 +435,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 3050 8800 3000
 $Comp
-L power:GND #PWR012
+L EnvOpenPico-rescue:GND-power #PWR012
 U 1 1 5EFCCD2A
 P 6200 2850
 F 0 "#PWR012" H 6200 2600 50  0001 C CNN
@@ -467,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 3350 8800 3400
 $Comp
-L power:GND #PWR018
+L EnvOpenPico-rescue:GND-power #PWR018
 U 1 1 5F00B2D4
 P 8800 3400
 F 0 "#PWR018" H 8800 3150 50  0001 C CNN
@@ -497,7 +497,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 3950 3100 4000
 $Comp
-L power:GND #PWR011
+L EnvOpenPico-rescue:GND-power #PWR011
 U 1 1 5EDB5C1D
 P 3350 4400
 F 0 "#PWR011" H 3350 4150 50  0001 C CNN
@@ -508,7 +508,7 @@ F 3 "" H 3350 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L EnvOpenPico-rescue:C-Device C5
 U 1 1 5EDB1AA1
 P 3350 4200
 F 0 "C5" H 3465 4246 50  0000 L CNN
@@ -521,7 +521,7 @@ $EndComp
 Wire Wire Line
 	1750 4950 1250 4950
 $Comp
-L Device:R R1
+L EnvOpenPico-rescue:R-Device R1
 U 1 1 5EDAE9F0
 P 1900 4950
 F 0 "R1" V 1693 4950 50  0000 C CNN
@@ -532,7 +532,7 @@ F 3 "~" H 1900 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L EnvOpenPico-rescue:R-Device R2
 U 1 1 5EDAC067
 P 2500 4350
 F 0 "R2" H 2570 4396 50  0000 L CNN
@@ -543,7 +543,7 @@ F 3 "~" H 2500 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR07
+L EnvOpenPico-rescue:+3V3-power #PWR07
 U 1 1 5EDA6C1C
 P 3100 3950
 F 0 "#PWR07" H 3100 3800 50  0001 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 3100 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:SPX3819M5-L-3-3 U1
+L EnvOpenPico-rescue:SPX3819M5-L-3-3-Regulator_Linear U1
 U 1 1 5F04C8B7
 P 3000 1850
 F 0 "U1" H 3000 2092 50  0000 C CNN
@@ -565,7 +565,7 @@ F 3 "~" H 3100 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L EnvOpenPico-rescue:GND-power #PWR05
 U 1 1 5F06A60B
 P 3000 2150
 F 0 "#PWR05" H 3000 1900 50  0001 C CNN
@@ -580,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 1750 3700 1700
 $Comp
-L power:+3V3 #PWR09
+L EnvOpenPico-rescue:+3V3-power #PWR09
 U 1 1 5F077314
 P 3700 1700
 F 0 "#PWR09" H 3700 1550 50  0001 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 3700 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR03
+L EnvOpenPico-rescue:VBUS-power #PWR03
 U 1 1 5F069FC0
 P 14600 4700
 F 0 "#PWR03" H 14600 4550 50  0001 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 14600 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C1
+L EnvOpenPico-rescue:C-Device C1
 U 1 1 5F09255D
 P 2150 1950
 F 0 "C1" H 2265 1996 50  0000 L CNN
@@ -613,7 +613,7 @@ F 3 "~" H 2150 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L EnvOpenPico-rescue:C-Device C4
 U 1 1 5F0930A1
 P 3700 1950
 F 0 "C4" H 3815 1996 50  0000 L CNN
@@ -624,7 +624,7 @@ F 3 "~" H 3700 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L EnvOpenPico-rescue:GND-power #PWR04
 U 1 1 5F093D45
 P 2150 2150
 F 0 "#PWR04" H 2150 1900 50  0001 C CNN
@@ -637,7 +637,7 @@ $EndComp
 Wire Wire Line
 	2150 2100 2150 2150
 $Comp
-L power:GND #PWR010
+L EnvOpenPico-rescue:GND-power #PWR010
 U 1 1 5F0A1049
 P 3700 2150
 F 0 "#PWR010" H 3700 1900 50  0001 C CNN
@@ -661,7 +661,7 @@ Wire Wire Line
 	8450 2350 8450 2400
 Connection ~ 8450 2400
 $Comp
-L Switch:SW_Push J2
+L EnvOpenPico-rescue:SW_Push-Switch J2
 U 1 1 5F30F0BA
 P 1050 4950
 F 0 "J2" H 1100 5100 50  0000 C CNN
@@ -672,7 +672,7 @@ F 3 "~" H 1050 4950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L EnvOpenPico-rescue:GND-power #PWR02
 U 1 1 5F30FDE4
 P 800 4900
 F 0 "#PWR02" H 800 4650 50  0001 C CNN
@@ -691,7 +691,7 @@ Wire Wire Line
 Text Label 10350 3800 2    50   ~ 0
 USB_D+
 $Comp
-L Device:R R3
+L EnvOpenPico-rescue:R-Device R3
 U 1 1 5EDE0881
 P 9650 3800
 F 0 "R3" V 9443 3800 50  0000 C CNN
@@ -708,7 +708,7 @@ USB_D+
 Text Label 1150 1600 0    50   ~ 0
 USB_D-
 $Comp
-L Connector_Generic:Conn_01x20 J4
+L EnvOpenPico-rescue:Conn_01x20-Connector_Generic J4
 U 1 1 5F4B0BC9
 P 14800 5600
 F 0 "J4" H 14800 6600 50  0000 C CNN
@@ -719,7 +719,7 @@ F 3 "~" H 14800 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x20 J3
+L EnvOpenPico-rescue:Conn_01x20-Connector_Generic J3
 U 1 1 5F4B4CE4
 P 13750 5600
 F 0 "J3" H 13750 6600 50  0000 C CNN
@@ -730,7 +730,7 @@ F 3 "~" H 13750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L EnvOpenPico-rescue:MountingHole-Mechanical H1
 U 1 1 5EF4C292
 P 9900 10200
 F 0 "H1" H 10000 10246 50  0000 L CNN
@@ -741,7 +741,7 @@ F 3 "~" H 9900 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L EnvOpenPico-rescue:MountingHole-Mechanical H2
 U 1 1 5EF4CF1F
 P 9900 10400
 F 0 "H2" H 10000 10446 50  0000 L CNN
@@ -752,7 +752,7 @@ F 3 "~" H 9900 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L EnvOpenPico-rescue:MountingHole-Mechanical H3
 U 1 1 5EF4D323
 P 9900 10600
 F 0 "H3" H 10000 10646 50  0000 L CNN
@@ -763,7 +763,7 @@ F 3 "~" H 9900 10600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L EnvOpenPico-rescue:MountingHole-Mechanical H4
 U 1 1 5EF4D57B
 P 9900 10800
 F 0 "H4" H 10000 10846 50  0000 L CNN
@@ -778,7 +778,7 @@ Make sure C10 is close to pin 44 of RP2040
 Text Notes 6600 3400 2    50   ~ 0
 Make sure C3 is close to pin 45 of RP2040
 $Comp
-L power:+3V3 #PWR024
+L EnvOpenPico-rescue:+3V3-power #PWR024
 U 1 1 5F1AF967
 P 13400 6950
 F 0 "#PWR024" H 13400 6800 50  0001 C CNN
@@ -789,7 +789,7 @@ F 3 "" H 13400 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L EnvOpenPico-rescue:C-Device C17
 U 1 1 5F1AF96D
 P 13400 7200
 F 0 "C17" H 13515 7246 50  0000 L CNN
@@ -800,7 +800,7 @@ F 3 "~" H 13400 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L EnvOpenPico-rescue:GND-power #PWR025
 U 1 1 5F1AF973
 P 13400 7400
 F 0 "#PWR025" H 13400 7150 50  0001 C CNN
@@ -859,7 +859,7 @@ Wire Wire Line
 Wire Wire Line
 	13050 6000 13550 6000
 $Comp
-L power:GND #PWR0102
+L EnvOpenPico-rescue:GND-power #PWR0102
 U 1 1 60A1B279
 P 13550 4900
 F 0 "#PWR0102" H 13550 4650 50  0001 C CNN
@@ -878,7 +878,7 @@ GPIO11
 Text Label 13050 5300 0    50   ~ 0
 GPIO10
 $Comp
-L power:GND #PWR0103
+L EnvOpenPico-rescue:GND-power #PWR0103
 U 1 1 60A5B3E8
 P 13550 5400
 F 0 "#PWR0103" H 13550 5150 50  0001 C CNN
@@ -889,7 +889,7 @@ F 3 "" H 13550 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR020
+L EnvOpenPico-rescue:GND-power #PWR020
 U 1 1 5EE21A10
 P 13550 6400
 F 0 "#PWR020" H 13550 6150 50  0001 C CNN
@@ -900,7 +900,7 @@ F 3 "" H 13550 6400 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0104
+L EnvOpenPico-rescue:GND-power #PWR0104
 U 1 1 60A8F3CF
 P 13550 5900
 F 0 "#PWR0104" H 13550 5650 50  0001 C CNN
@@ -911,7 +911,7 @@ F 3 "" H 13550 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VBUS #PWR021
+L EnvOpenPico-rescue:VBUS-power #PWR021
 U 1 1 60A9D778
 P 1900 1700
 F 0 "#PWR021" H 1900 1550 50  0001 C CNN
@@ -922,7 +922,7 @@ F 3 "" H 1900 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L EnvOpenPico-rescue:GND-power #PWR027
 U 1 1 60B53A4E
 P 14600 4900
 F 0 "#PWR027" H 14600 4650 50  0001 C CNN
@@ -933,7 +933,7 @@ F 3 "" H 14600 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D2
+L EnvOpenPico-rescue:D_Schottky-Device D2
 U 1 1 60B7C7B6
 P 14450 5100
 F 0 "D2" H 15000 4900 50  0000 C CNN
@@ -944,7 +944,7 @@ F 3 "~" H 14450 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR029
+L EnvOpenPico-rescue:+3V3-power #PWR029
 U 1 1 60B80D2A
 P 14300 5100
 F 0 "#PWR029" H 14300 4950 50  0001 C CNN
@@ -957,7 +957,7 @@ $EndComp
 Text Label 14100 5200 0    39   ~ 0
 ADC_VREF
 $Comp
-L power:GND #PWR030
+L EnvOpenPico-rescue:GND-power #PWR030
 U 1 1 60BD3D8E
 P 14600 5400
 F 0 "#PWR030" H 14600 5150 50  0001 C CNN
@@ -970,7 +970,7 @@ $EndComp
 Wire Wire Line
 	14100 5700 14600 5700
 $Comp
-L power:GND #PWR031
+L EnvOpenPico-rescue:GND-power #PWR031
 U 1 1 60C33F11
 P 14600 5900
 F 0 "#PWR031" H 14600 5650 50  0001 C CNN
@@ -981,7 +981,7 @@ F 3 "" H 14600 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR032
+L EnvOpenPico-rescue:GND-power #PWR032
 U 1 1 60C68659
 P 14600 6400
 F 0 "#PWR032" H 14600 6150 50  0001 C CNN
@@ -996,7 +996,7 @@ GPIO25
 Wire Wire Line
 	14350 7600 13850 7600
 $Comp
-L Device:R R8
+L EnvOpenPico-rescue:R-Device R8
 U 1 1 60CC69DF
 P 14500 7600
 F 0 "R8" V 14293 7600 50  0000 C CNN
@@ -1007,7 +1007,7 @@ F 3 "~" H 14500 7600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D3
+L EnvOpenPico-rescue:LED-Device D3
 U 1 1 60CC7B32
 P 14800 7600
 F 0 "D3" H 14750 7350 50  0000 C CNN
@@ -1018,7 +1018,7 @@ F 3 "~" H 14800 7600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR033
+L EnvOpenPico-rescue:GND-power #PWR033
 U 1 1 60CC88EA
 P 14950 7600
 F 0 "#PWR033" H 14950 7350 50  0001 C CNN
@@ -1029,7 +1029,7 @@ F 3 "" H 14950 7600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J5
+L EnvOpenPico-rescue:Conn_01x03-Connector_Generic J5
 U 1 1 60CE2DD4
 P 14800 7000
 F 0 "J5" H 14880 7042 50  0000 L CNN
@@ -1044,7 +1044,7 @@ SWD
 Wire Wire Line
 	14100 7100 14600 7100
 $Comp
-L power:GND #PWR034
+L EnvOpenPico-rescue:GND-power #PWR034
 U 1 1 60D5FB1F
 P 14600 7000
 F 0 "#PWR034" H 14600 6750 50  0001 C CNN
@@ -1065,7 +1065,7 @@ QSPI_SCLK
 Wire Wire Line
 	2050 5050 2500 5050
 $Comp
-L power:GND #PWR0101
+L EnvOpenPico-rescue:GND-power #PWR0101
 U 1 1 608CFF74
 P 3700 5550
 F 0 "#PWR0101" H 3700 5300 50  0001 C CNN
@@ -1101,7 +1101,7 @@ Wire Wire Line
 Wire Wire Line
 	14100 5200 14550 5200
 $Comp
-L Device:C C11
+L EnvOpenPico-rescue:C-Device C11
 U 1 1 5EEF00BB
 P 9250 2600
 F 0 "C11" H 9365 2646 50  0000 L CNN
@@ -1135,7 +1135,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 2850 10550 2850
 $Comp
-L Device:C C15
+L EnvOpenPico-rescue:C-Device C15
 U 1 1 608F1359
 P 11000 2600
 F 0 "C15" H 11115 2646 50  0000 L CNN
@@ -1146,7 +1146,7 @@ F 3 "~" H 11000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L EnvOpenPico-rescue:C-Device C14
 U 1 1 608F135F
 P 10550 2600
 F 0 "C14" H 10665 2646 50  0000 L CNN
@@ -1157,7 +1157,7 @@ F 3 "~" H 10550 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L EnvOpenPico-rescue:C-Device C13
 U 1 1 608F1365
 P 10100 2600
 F 0 "C13" H 10215 2646 50  0000 L CNN
@@ -1168,7 +1168,7 @@ F 3 "~" H 10100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L EnvOpenPico-rescue:GND-power #PWR08
 U 1 1 608F136B
 P 11000 2850
 F 0 "#PWR08" H 11000 2600 50  0001 C CNN
@@ -1185,7 +1185,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 2400 9250 2400
 $Comp
-L Oscillator:XO32 X1
+L EnvOpenPico-rescue:XO32-Oscillator X1
 U 1 1 60894744
 P 2600 8700
 F 0 "X1" V 2250 8550 50  0000 L CNN
@@ -1196,7 +1196,7 @@ F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf" H 2500 8700 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0105
+L EnvOpenPico-rescue:GND-power #PWR0105
 U 1 1 608B9527
 P 2900 8700
 F 0 "#PWR0105" H 2900 8450 50  0001 C CNN
@@ -1207,7 +1207,7 @@ F 3 "" H 2900 8700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0106
+L EnvOpenPico-rescue:+3.3V-power #PWR0106
 U 1 1 608B9D1F
 P 2300 8700
 F 0 "#PWR0106" H 2300 8550 50  0001 C CNN
@@ -1218,7 +1218,7 @@ F 3 "" H 2300 8700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C2
+L EnvOpenPico-rescue:C-Device C2
 U 1 1 5ED96B87
 P 3200 8250
 F 0 "C2" H 3315 8296 50  0000 L CNN
@@ -1232,7 +1232,7 @@ Connection ~ 3200 8400
 Wire Wire Line
 	3200 8400 3850 8400
 $Comp
-L power:GND #PWR0107
+L EnvOpenPico-rescue:GND-power #PWR0107
 U 1 1 6097CBA8
 P 3200 8100
 F 0 "#PWR0107" H 3200 7850 50  0001 C CNN
@@ -1257,7 +1257,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 3200 6750 3200
 $Comp
-L power:GND #PWR06
+L EnvOpenPico-rescue:GND-power #PWR06
 U 1 1 608C8007
 P 6750 3500
 F 0 "#PWR06" H 6750 3250 50  0001 C CNN
@@ -1268,7 +1268,7 @@ F 3 "" H 6750 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L EnvOpenPico-rescue:C-Device C3
 U 1 1 608C8D3F
 P 6750 3350
 F 0 "C3" H 6865 3396 50  0000 L CNN
@@ -1279,7 +1279,7 @@ F 3 "~" H 6750 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L EnvOpenPico-rescue:C-Device C8
 U 1 1 608E7710
 P 9700 2600
 F 0 "C8" H 9815 2646 50  0000 L CNN
@@ -1330,7 +1330,7 @@ Wire Wire Line
 	1750 2200 1100 2200
 Connection ~ 1750 1750
 $Comp
-L Device:R_Small R6
+L EnvOpenPico-rescue:R_Small-Device R6
 U 1 1 609385D4
 P 1200 2100
 F 0 "R6" V 1100 2100 50  0000 C CNN
@@ -1341,7 +1341,7 @@ F 3 "~" H 1200 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R5
+L EnvOpenPico-rescue:R_Small-Device R5
 U 1 1 6093A5B0
 P 1200 1500
 F 0 "R5" V 1100 1500 50  0000 C CNN
@@ -1352,7 +1352,7 @@ F 3 "~" H 1200 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0108
+L EnvOpenPico-rescue:GND-power #PWR0108
 U 1 1 609526BA
 P 1300 1500
 F 0 "#PWR0108" H 1300 1250 50  0001 C CNN
@@ -1363,7 +1363,7 @@ F 3 "" H 1300 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0109
+L EnvOpenPico-rescue:GND-power #PWR0109
 U 1 1 60952DC6
 P 1300 2100
 F 0 "#PWR0109" H 1300 1850 50  0001 C CNN
@@ -1392,7 +1392,7 @@ Connection ~ 2150 1750
 Wire Wire Line
 	2150 1750 2500 1750
 $Comp
-L Device:R R7
+L EnvOpenPico-rescue:R-Device R7
 U 1 1 608CFAF0
 P 2500 1900
 F 0 "R7" H 2550 1800 50  0000 L CNN
@@ -1432,7 +1432,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4550 3700 4550
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L EnvOpenPico-rescue:Logo_Open_Hardware_Small-Graphic #LOGO1
 U 1 1 608CE996
 P 12650 10250
 F 0 "#LOGO1" H 12650 10525 50  0001 C CNN
